@@ -1,7 +1,7 @@
 <?php
-// config.php - Database connection and session start
+ config.php - Database connection and session start
 
-// Start the session at the very beginning of the script
+ Start the session at the very beginning of the script
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
